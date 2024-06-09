@@ -55,7 +55,13 @@ exports.getAllProducts = expressAsyncHandler(
 
         //searching
         if (req.query.keyword) {
+            const query = {}
+            query.$or = [
+                { title: { $regex: req.query.keyword, $options: "i" } },
+                { description: { $regex: req.query.keyword, $options: "i" } }
+            ]
 
+            mongooseQuery = mongooseQuery.find(query)
         }
         // execute the query
         const products = await mongooseQuery
