@@ -24,12 +24,13 @@ exports.createCategory = expressAsyncHandler(
 // @access   public
 exports.getAllCategory = expressAsyncHandler(
     async (req, res) => {
-        const { page = 1, limit = 3 } = req.query;
+        const { page = 1, limit = 3 } = req.body;
         const skip = (page - 1) * limit
         const allCategories = await CategoryModel.find({})
         const Categories = await CategoryModel.find({}).skip(skip).limit(limit)
         res.status(200).json({
             pages: Math.ceil(allCategories.length / limit),
+            limit,
             totalNumberOfCategories: allCategories.length,
             currentPage: page,
             results: Categories.length,

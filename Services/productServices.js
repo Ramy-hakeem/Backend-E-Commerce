@@ -1,7 +1,7 @@
 const expressAsyncHandler = require("express-async-handler");
 const { default: slugify } = require("slugify");
 const productModel = require("../models/productModel");
-const { json } = require("express");
+
 
 
 
@@ -24,12 +24,11 @@ exports.createProduct = expressAsyncHandler(
 exports.getAllProducts = expressAsyncHandler(
     async (req, res) => {
         // filter 
-        // eslint-disable-next-line node/no-unsupported-features/es-syntax
         let filteration = { ...req.query }
-        const excludesFields = ["currentPage", "limit", "sort", "fields"]
+        const excludesFields = ["currentPage", "limit", "sort", "fields", "keyword"]
         excludesFields.forEach(q => delete filteration[q])
         filteration = JSON.parse(JSON.stringify(filteration).replace(/gte|gt|lte|lt/ig, (s) => `$${s}`))
-
+        console.log(req.query.keyword)
 
         // pagination
         const { limit = 15, currentPage = 1 } = req.query
@@ -41,17 +40,22 @@ exports.getAllProducts = expressAsyncHandler(
             .populate([{ path: "category", select: "name -_id" }, { path: "brand", select: "name -_id" }, { path: "subcategory", select: "name -_id" }])
 
         // sorting
-
         if (req.query.sort) {
             mongooseQuery = mongooseQuery.sort(req.query.sort.split(",").join(" "))
         } else {
             mongooseQuery = mongooseQuery.sort("createdAt")
         }
+
         // field limit
         if (req.query.fields) {
             mongooseQuery = mongooseQuery.select(req.query.fields.split(",").join(" "))
         } else {
             mongooseQuery = mongooseQuery.select("-__v")
+        }
+
+        //searching
+        if (req.query.keyword) {
+
         }
         // execute the query
         const products = await mongooseQuery

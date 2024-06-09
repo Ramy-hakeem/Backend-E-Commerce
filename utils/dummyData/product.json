@@ -1,124 +1,702 @@
 [
     {
-        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "slug": "fjallraven-foldsack-no.-1-backpack-fits-15-laptops",
-        "quantity": 10,
-        "sold": 25,
-        "price": 109.95,
-        "priceAfterDiscount": 100,
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-        "category": "61b2a9d869d54640ca3d7293",
-        "imageCover": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-        "ratingsAverage": 4.3,
-        "ratingsQuantity": 20
+        "name": "Summer Breeze Dress",
+        "slug": "summer-breeze-dress",
+        "description": "A lightweight, airy dress perfect for summer outings.",
+        "quantity": 50,
+        "sold": 20,
+        "price": 39.99,
+        "priceAfterDiscount": 29.99,
+        "colors": [
+            "red",
+            "blue",
+            "white"
+        ],
+        "images": [
+            "summer_breeze_1.jpg",
+            "summer_breeze_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/summer_breeze_cover.jpg",
+        "category": "665f5b0c00e501c55e56c45f",
+        "subcategory": [
+            "665f5d77dbdeb45407593899"
+        ],
+        "brand": "665f5a0700e501c55e56c43f",
+        "ratingsAverage": 4.5,
+        "ratingQuantity": 120
     },
     {
-        "name": "Mens Casual Premium Slim Fit T-Shirts",
-        "slug": "mens-casual-premium-slim-fit-t-shirts",
-        "quantity": 20,
-        "sold": 30,
-        "price": 22.3,
-        "priceAfterDiscount": 20,
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-        "category": "61b2a9d869d54640ca3d7293",
-        "imageCover": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-        "ratingsAverage": 4.4,
-        "ratingsQuantity": 23
+        "name": "Casual Blouse",
+        "slug": "casual-blouse",
+        "description": "A stylish and comfortable blouse for everyday wear.",
+        "quantity": 100,
+        "sold": 40,
+        "price": 24.99,
+        "priceAfterDiscount": 19.99,
+        "colors": [
+            "black",
+            "white",
+            "pink"
+        ],
+        "images": [
+            "casual_blouse_1.jpg",
+            "casual_blouse_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/casual_blouse_cover.jpg",
+        "category": "665f5b2e00e501c55e56c463",
+        "subcategory": [
+            "665f5d9ddbdeb4540759389f"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.2,
+        "ratingQuantity": 85
     },
     {
-        "name": "Mens Cotton Jacket",
-        "slug": "mens-cotton-jacket",
-        "quantity": 20,
+        "name": "Graphic Tee",
+        "slug": "graphic-tee",
+        "description": "A trendy graphic tee with unique designs.",
+        "quantity": 200,
         "sold": 75,
-        "price": 55.99,
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-        "category": "61b7a02868424f7846ce1d6f",
-        "imageCover": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-        "ratingsAverage": 4.0,
-        "ratingsQuantity": 70
+        "price": 19.99,
+        "colors": [
+            "black",
+            "white"
+        ],
+        "images": [
+            "graphic_tee_1.jpg",
+            "graphic_tee_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/graphic_tee_cover.jpg",
+        "category": "665f5b4a00e501c55e56c467",
+        "subcategory": [
+            "665f5e38dbdeb454075938ab"
+        ],
+        "brand": "665f5a1a00e501c55e56c445",
+        "ratingsAverage": 4.7,
+        "ratingQuantity": 200
     },
     {
-        "name": "Mens Casual Slim Fit",
-        "slug": "mens-casual-slim-fit",
-        "quantity": 100,
-        "sold": 101,
-        "price": 15.99,
-        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-        "category": "61b2a9d869d54640ca3d7293",
-        "imageCover": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-        "ratingsAverage": 4.9,
-        "ratingsQuantity": 98
-    },
-    {
-        "name": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-        "slug": "john-hardy-women's-legends-naga-gold-and-silver-dragon-station-chain-bracelet",
-        "quantity": 100,
-        "sold": 14,
-        "price": 695,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "61b2a9d869d54640ca3d7293",
-        "imageCover": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-        "ratingsAverage": 4.4,
-        "ratingsQuantity": 12
-    },
-    {
-        "name": "Solid Gold Petite Micropave",
-        "slug": "solid-gold-petite-micropave",
-        "quantity": 75,
-        "sold": 69,
-        "price": 168,
-        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-        "category": "61b2a8dd4bad61f4cc4a98ea",
-        "imageCover": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-        "ratingsAverage": 3.1,
-        "ratingsQuantity": 66
-    },
-    {
-        "name": "White Gold Plated Princess",
-        "slug": "white-gold-plated-princess",
-        "quantity": 33,
-        "sold": 99,
-        "price": 9.99,
-        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-        "category": "61b2a8dd4bad61f4cc4a98ea",
-        "imageCover": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-        "ratingsAverage": 2.8,
-        "ratingsQuantity": 76
-    },
-    {
-        "name": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-        "slug": "pierced-owl-rose-gold-plated-stainless-steel-double",
-        "quantity": 90,
-        "sold": 32,
-        "price": 10.99,
-        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-        "category": "61b2a8dd4bad61f4cc4a98ea",
-        "imageCover": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-        "ratingsAverage": 4.3,
-        "ratingsQuantity": 20
-    },
-    {
-        "name": "WD 2TB Elements Portable External Hard Drive - USB 3.0",
-        "slug": "wd-2tb-elements-portable-external-hard-drive-usb-3.0",
-        "quantity": 102,
-        "sold": 51,
-        "price": 64,
-        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-        "category": "61b2a8dd4bad61f4cc4a98ea",
-        "imageCover": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "name": "Pullover Hoodie",
+        "slug": "pullover-hoodie",
+        "description": "A warm and comfortable pullover hoodie for chilly days.",
+        "quantity": 150,
+        "sold": 60,
+        "price": 49.99,
+        "priceAfterDiscount": 39.99,
+        "colors": [
+            "gray",
+            "blue"
+        ],
+        "images": [
+            "pullover_hoodie_1.jpg",
+            "pullover_hoodie_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/pullover_hoodie_cover.jpg",
+        "category": "665f5b5f00e501c55e56c46b",
+        "subcategory": [
+            "665f5e9fdbdeb454075938b9"
+        ],
+        "brand": "665f59fe00e501c55e56c43c",
         "ratingsAverage": 4.8,
-        "ratingsQuantity": 42
+        "ratingQuantity": 150
     },
     {
-        "name": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-        "slug": "sandisk-ssd-plus-1tb-internal-ssd-sata-iii-6-gbs",
-        "quantity": 104,
-        "sold": 9,
-        "price": 109,
-        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-        "category": "61b2a8dd4bad61f4cc4a98ea",
-        "imageCover": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-        "ratingsAverage": 1.6,
-        "ratingsQuantity": 5
+        "name": "Skinny Jeans",
+        "slug": "skinny-jeans",
+        "description": "A pair of stylish skinny jeans that fit perfectly.",
+        "quantity": 80,
+        "sold": 35,
+        "price": 49.99,
+        "colors": [
+            "blue",
+            "black"
+        ],
+        "images": [
+            "skinny_jeans_1.jpg",
+            "skinny_jeans_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/skinny_jeans_cover.jpg",
+        "category": "665f5b8700e501c55e56c471",
+        "subcategory": [
+            "665f5ef9dbdeb454075938c5"
+        ],
+        "brand": "665f5a0700e501c55e56c43f",
+        "ratingsAverage": 4.4,
+        "ratingQuantity": 110
+    },
+    {
+        "name": "Casual Summer Dress",
+        "slug": "casual-summer-dress",
+        "description": "An easy-to-wear summer dress for casual outings.",
+        "quantity": 60,
+        "sold": 25,
+        "price": 29.99,
+        "priceAfterDiscount": 24.99,
+        "colors": [
+            "yellow",
+            "green",
+            "blue"
+        ],
+        "images": [
+            "casual_summer_dress_1.jpg",
+            "casual_summer_dress_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/casual_summer_dress_cover.jpg",
+        "category": "665f5b0c00e501c55e56c45f",
+        "subcategory": [
+            "665f5d77dbdeb45407593899"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.6,
+        "ratingQuantity": 90
+    },
+    {
+        "name": "Formal Shirt",
+        "slug": "formal-shirt",
+        "description": "A classic formal shirt suitable for office wear.",
+        "quantity": 70,
+        "sold": 30,
+        "price": 34.99,
+        "colors": [
+            "white",
+            "blue"
+        ],
+        "images": [
+            "formal_shirt_1.jpg",
+            "formal_shirt_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/formal_shirt_cover.jpg",
+        "category": "665f5b4000e501c55e56c465",
+        "subcategory": [
+            "665f5dcfdbdeb454075938a7"
+        ],
+        "brand": "665f5a1a00e501c55e56c445",
+        "ratingsAverage": 4.3,
+        "ratingQuantity": 100
+    },
+    {
+        "name": "Hooded Sweatshirt",
+        "slug": "hooded-sweatshirt",
+        "description": "A cozy hooded sweatshirt perfect for casual wear.",
+        "quantity": 120,
+        "sold": 50,
+        "price": 44.99,
+        "colors": [
+            "gray",
+            "black",
+            "navy"
+        ],
+        "images": [
+            "hooded_sweatshirt_1.jpg",
+            "hooded_sweatshirt_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/hooded_sweatshirt_cover.jpg",
+        "category": "665f5b5f00e501c55e56c46b",
+        "subcategory": [
+            "665f5e7ddbdeb454075938b5"
+        ],
+        "brand": "665f5a0700e501c55e56c43f",
+        "ratingsAverage": 4.5,
+        "ratingQuantity": 130
+    },
+    {
+        "name": "Ripped Jeans",
+        "slug": "ripped-jeans",
+        "description": "Trendy ripped jeans for a casual and edgy look.",
+        "quantity": 90,
+        "sold": 40,
+        "price": 59.99,
+        "colors": [
+            "blue"
+        ],
+        "images": [
+            "ripped_jeans_1.jpg",
+            "ripped_jeans_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/ripped_jeans_cover.jpg",
+        "category": "665f5b8700e501c55e56c471",
+        "subcategory": [
+            "665f5f01dbdeb454075938c7"
+        ],
+        "brand": "665f5a0700e501c55e56c43f",
+        "ratingsAverage": 4.6,
+        "ratingQuantity": 100
+    },
+    {
+        "name": "Striped Sweater",
+        "slug": "striped-sweater",
+        "description": "A stylish striped sweater for a chic and cozy look.",
+        "quantity": 80,
+        "sold": 35,
+        "price": 39.99,
+        "colors": [
+            "black/white",
+            "navy/white"
+        ],
+        "images": [
+            "striped_sweater_1.jpg",
+            "striped_sweater_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/striped_sweater_cover.jpg",
+        "category": "665f5b5700e501c55e56c469",
+        "subcategory": [
+            "665f5e70dbdeb454075938b3"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.4,
+        "ratingQuantity": 90
+    },
+    {
+        "name": "Cotton Polo Shirt",
+        "slug": "cotton-polo-shirt",
+        "description": "A comfortable and breathable cotton polo shirt for everyday wear.",
+        "quantity": 100,
+        "sold": 45,
+        "price": 29.99,
+        "colors": [
+            "white",
+            "blue",
+            "green"
+        ],
+        "images": [
+            "cotton_polo_shirt_1.jpg",
+            "cotton_polo_shirt_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/cotton_polo_shirt_cover.jpg",
+        "category": "665f5b4000e501c55e56c465",
+        "subcategory": [
+            "665f5dc4dbdeb454075938a5"
+        ],
+        "brand": "665f5a0700e501c55e56c43f",
+        "ratingsAverage": 4.2,
+        "ratingQuantity": 80
+    },
+    {
+        "name": "Casual Chinos",
+        "slug": "casual-chinos",
+        "description": "Versatile casual chinos suitable for various occasions.",
+        "quantity": 70,
+        "sold": 30,
+        "price": 39.99,
+        "colors": [
+            "khaki",
+            "navy",
+            "gray"
+        ],
+        "images": [
+            "casual_chinos_1.jpg",
+            "casual_chinos_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/casual_chinos_cover.jpg",
+        "category": "665f5b8700e501c55e56c471",
+        "subcategory": [
+            "665f5f0ddbdeb454075938c9"
+        ],
+        "brand": "665f5a1a00e501c55e56c445",
+        "ratingsAverage": 4.3,
+        "ratingQuantity": 85
+    },
+    {
+        "name": "Silk Blouse",
+        "slug": "silk-blouse",
+        "description": "Elegant silk blouse for a sophisticated look.",
+        "quantity": 60,
+        "sold": 20,
+        "price": 69.99,
+        "colors": [
+            "ivory",
+            "black",
+            "pink"
+        ],
+        "images": [
+            "silk_blouse_1.jpg",
+            "silk_blouse_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/silk_blouse_cover.jpg",
+        "category": "665f5b2e00e501c55e56c463",
+        "subcategory": [
+            "665f5d9ddbdeb4540759389f"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.7,
+        "ratingQuantity": 95
+    },
+    {
+        "name": "Graphic T-Shirt",
+        "slug": "graphic-t-shirt",
+        "description": "Trendy graphic t-shirt for a casual and fun look.",
+        "quantity": 110,
+        "sold": 60,
+        "price": 24.99,
+        "colors": [
+            "white",
+            "black",
+            "gray"
+        ],
+        "images": [
+            "graphic_t_shirt_1.jpg",
+            "graphic_t_shirt_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/graphic_t_shirt_cover.jpg",
+        "category": "665f5b4a00e501c55e56c467",
+        "subcategory": [
+            "665f5e38dbdeb454075938ab"
+        ],
+        "brand": "665f5a0700e501c55e56c43f",
+        "ratingsAverage": 4.5,
+        "ratingQuantity": 120
+    },
+    {
+        "name": "Cashmere Sweater",
+        "slug": "cashmere-sweater",
+        "description": "Luxurious cashmere sweater for a cozy and elegant look.",
+        "quantity": 75,
+        "sold": 25,
+        "price": 99.99,
+        "colors": [
+            "gray",
+            "black",
+            "beige"
+        ],
+        "images": [
+            "cashmere_sweater_1.jpg",
+            "cashmere_sweater_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/cashmere_sweater_cover.jpg",
+        "category": "665f5b5700e501c55e56c469",
+        "subcategory": [
+            "665f5e70dbdeb454075938b3"
+        ],
+        "brand": "665f5a1a00e501c55e56c445",
+        "ratingsAverage": 4.8,
+        "ratingQuantity": 85
+    },
+    {
+        "name": "Casual Silk Shirt",
+        "slug": "casual-silk-shirt",
+        "description": "Casual silk shirt for a comfortable and stylish look.",
+        "quantity": 80,
+        "sold": 30,
+        "price": 79.99,
+        "colors": [
+            "white",
+            "blue",
+            "pink"
+        ],
+        "images": [
+            "casual_silk_shirt_1.jpg",
+            "casual_silk_shirt_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/casual_silk_shirt_cover.jpg",
+        "category": "665f5b4000e501c55e56c465",
+        "subcategory": [
+            "665f5da6dbdeb454075938a1"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.6,
+        "ratingQuantity": 90
+    },
+    {
+        "name": "Denim Jacket",
+        "slug": "denim-jacket",
+        "description": "Classic denim jacket for a timeless and casual look.",
+        "quantity": 70,
+        "sold": 40,
+        "price": 79.99,
+        "colors": [
+            "blue"
+        ],
+        "images": [
+            "denim_jacket_1.jpg",
+            "denim_jacket_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/denim_jacket_cover.jpg",
+        "category": "665f5b7d00e501c55e56c46f",
+        "subcategory": [
+            "665f5ed6dbdeb454075938bf"
+        ],
+        "brand": "665f5a1a00e501c55e56c445",
+        "ratingsAverage": 4.4,
+        "ratingQuantity": 100
+    },
+    {
+        "name": "Summer Floral Maxi Dress",
+        "description": "Light and flowy floral maxi dress perfect for summer outings.",
+        "quantity": 50,
+        "sold": 15,
+        "price": 49.99,
+        "colors": [
+            "blue",
+            "pink",
+            "yellow"
+        ],
+        "images": [
+            "summer_dress_1.jpg",
+            "summer_dress_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/summer_dress_cover.jpg",
+        "category": "665f5b0c00e501c55e56c45f",
+        "subcategory": [
+            "665f5d77dbdeb45407593899"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.6,
+        "ratingQuantity": 80
+    },
+    {
+        "name": "Linen Casual Shirt",
+        "description": "Comfortable and breathable linen shirt for casual wear.",
+        "quantity": 45,
+        "sold": 10,
+        "price": 34.99,
+        "colors": [
+            "white",
+            "blue",
+            "beige"
+        ],
+        "images": [
+            "casual_shirt_1.jpg",
+            "casual_shirt_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/casual_shirt_cover.jpg",
+        "category": "665f5b4000e501c55e56c465",
+        "subcategory": [
+            "665f5dcfdbdeb454075938a7"
+        ],
+        "brand": "665f5a0700e501c55e56c43f",
+        "ratingsAverage": 4.3,
+        "ratingQuantity": 70
+    },
+    {
+        "name": "Chunky Knit Turtleneck Sweater",
+        "description": "Warm and cozy chunky knit turtleneck sweater for cold days.",
+        "quantity": 60,
+        "sold": 25,
+        "price": 59.99,
+        "colors": [
+            "gray",
+            "black",
+            "cream"
+        ],
+        "images": [
+            "turtleneck_sweater_1.jpg",
+            "turtleneck_sweater_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/turtleneck_sweater_cover.jpg",
+        "category": "665f5b5700e501c55e56c469",
+        "subcategory": [
+            "665f5e5ddbdeb454075938b1"
+        ],
+        "brand": "665f5a1a00e501c55e56c445",
+        "ratingsAverage": 4.7,
+        "ratingQuantity": 90
+    },
+    {
+        "name": "Classic Bootcut Jeans",
+        "description": "Timeless bootcut jeans for a flattering silhouette.",
+        "quantity": 70,
+        "sold": 30,
+        "price": 69.99,
+        "colors": [
+            "blue"
+        ],
+        "images": [
+            "bootcut_jeans_1.jpg",
+            "bootcut_jeans_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/bootcut_jeans_cover.jpg",
+        "category": "665f5b8700e501c55e56c471",
+        "subcategory": [
+            "665f5f01dbdeb454075938c7"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.5,
+        "ratingQuantity": 85
+    },
+    {
+        "name": "Lace Overlay Push-Up Bra",
+        "description": "Elegant lace overlay push-up bra for added femininity.",
+        "quantity": 55,
+        "sold": 20,
+        "price": 29.99,
+        "colors": [
+            "black",
+            "white",
+            "red"
+        ],
+        "images": [
+            "lace_bra_1.jpg",
+            "lace_bra_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/lace_bra_cover.jpg",
+        "category": "665f5b8e00e501c55e56c473",
+        "subcategory": [
+            "665f5f22dbdeb454075938cb"
+        ],
+        "brand": "665f5a1a00e501c55e56c445",
+        "ratingsAverage": 4.8,
+        "ratingQuantity": 95
+    },
+    {
+        "name": "Slim Fit Chino Pants",
+        "description": "Stylish and versatile slim fit chino pants suitable for any occasion.",
+        "quantity": 40,
+        "sold": 12,
+        "price": 45.99,
+        "colors": [
+            "khaki",
+            "navy",
+            "olive"
+        ],
+        "images": [
+            "chino_pants_1.jpg",
+            "chino_pants_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/chino_pants_cover.jpg",
+        "category": "665f5b8700e501c55e56c471",
+        "subcategory": [
+            "665f5ef9dbdeb454075938c5"
+        ],
+        "brand": "665f5a3400e501c55e56c44a",
+        "ratingsAverage": 4.4,
+        "ratingQuantity": 75
+    },
+    {
+        "name": "Cotton V-Neck T-Shirt",
+        "description": "Soft and breathable cotton v-neck t-shirt for everyday wear.",
+        "quantity": 55,
+        "sold": 18,
+        "price": 19.99,
+        "colors": [
+            "white",
+            "black",
+            "gray"
+        ],
+        "images": [
+            "vneck_tshirt_1.jpg",
+            "vneck_tshirt_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/vneck_tshirt_cover.jpg",
+        "category": "665f5b4a00e501c55e56c467",
+        "subcategory": [
+            "665f5e38dbdeb454075938ab"
+        ],
+        "brand": "665f5a0700e501c55e56c43f",
+        "ratingsAverage": 4.2,
+        "ratingQuantity": 65
+    },
+    {
+        "name": "Leather Biker Jacket",
+        "description": "Classic leather biker jacket with a modern twist.",
+        "quantity": 30,
+        "sold": 8,
+        "price": 129.99,
+        "colors": [
+            "black"
+        ],
+        "images": [
+            "biker_jacket_1.jpg",
+            "biker_jacket_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/biker_jacket_cover.jpg",
+        "category": "665f5b7d00e501c55e56c46f",
+        "subcategory": [
+            "665f5ed6dbdeb454075938bf"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.9,
+        "ratingQuantity": 100
+    },
+    {
+        "name": "Striped Linen Blouse",
+        "description": "Chic and comfortable linen blouse with classic stripes.",
+        "quantity": 35,
+        "sold": 10,
+        "price": 39.99,
+        "colors": [
+            "blue/white",
+            "black/white"
+        ],
+        "images": [
+            "linen_blouse_1.jpg",
+            "linen_blouse_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/linen_blouse_cover.jpg",
+        "category": "665f5b2e00e501c55e56c463",
+        "subcategory": [
+            "665f5d9ddbdeb4540759389f"
+        ],
+        "brand": "665f5a1a00e501c55e56c445",
+        "ratingsAverage": 4.7,
+        "ratingQuantity": 90
+    },
+    {
+        "name": "Denim Mini Skirt",
+        "description": "Stylish denim mini skirt perfect for casual outings.",
+        "quantity": 25,
+        "sold": 5,
+        "price": 29.99,
+        "colors": [
+            "blue"
+        ],
+        "images": [
+            "mini_skirt_1.jpg",
+            "mini_skirt_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/mini_skirt_cover.jpg",
+        "category": "665f5b0c00e501c55e56c45f",
+        "subcategory": [
+            "665f5b0c00e501c55e56c45f"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.6,
+        "ratingQuantity": 85
+    },
+    {
+        "name": "Sporty Sneakers",
+        "description": "Comfortable and stylish sneakers perfect for sports or casual wear.",
+        "quantity": 60,
+        "sold": 20,
+        "price": 59.99,
+        "colors": [
+            "white/black",
+            "gray/orange",
+            "blue/red"
+        ],
+        "images": [
+            "sneakers_1.jpg",
+            "sneakers_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/sneakers_cover.jpg",
+        "category": "665f5b0c00e501c55e56c45f",
+        "subcategory": [
+            "665f5b0c00e501c55e56c45f"
+        ],
+        "brand": "665f59fe00e501c55e56c43c",
+        "ratingsAverage": 4.5,
+        "ratingQuantity": 80
+    },
+    {
+        "name": "Silk Slip Dress",
+        "description": "Elegant and luxurious silk slip dress for special occasions.",
+        "quantity": 20,
+        "sold": 7,
+        "price": 99.99,
+        "colors": [
+            "black",
+            "champagne"
+        ],
+        "images": [
+            "silk_slip_dress_1.jpg",
+            "silk_slip_dress_2.jpg"
+        ],
+        "imageCover": "https://example.com/images/silk_slip_dress_cover.jpg",
+        "category": "665f5b0c00e501c55e56c45f",
+        "subcategory": [
+            "665f5b0c00e501c55e56c45f"
+        ],
+        "brand": "665f5a0f00e501c55e56c442",
+        "ratingsAverage": 4.8,
+        "ratingQuantity": 95
     }
 ]

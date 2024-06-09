@@ -9,7 +9,6 @@
     ],
     "rules": {
         // "prettier/prettier": "error",
-        "no-unsupported-features": "off",
         "spaced-comment": "off",
         "no-console": "off",
         "consistent-return": "off",
@@ -21,6 +20,7 @@
         "no-underscore-dangle": "off",
         "class-methods-use-this": "off",
         "no-undef": "error",
+        "node/no-unsupported-features/es-syntax": "off",
         "prefer-destructuring": [
             "warn",
             {
@@ -29,7 +29,7 @@
             }
         ],
         "no-unused-vars": [
-            "off",
+            "warn",
             {
                 "argsIgnorePattern": "req|res|next|val"
             }
