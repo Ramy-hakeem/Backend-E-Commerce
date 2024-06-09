@@ -1,6 +1,7 @@
 const expressAsyncHandler = require("express-async-handler");
 const { default: slugify } = require("slugify");
 const productModel = require("../models/productModel");
+const ApiFeatures = require("../utils/apiFeatures");
 
 
 
@@ -23,51 +24,24 @@ exports.createProduct = expressAsyncHandler(
 // @access  Public
 exports.getAllProducts = expressAsyncHandler(
     async (req, res) => {
-        // filter 
-        let filteration = { ...req.query }
-        const excludesFields = ["currentPage", "limit", "sort", "fields", "keyword"]
-        excludesFields.forEach(q => delete filteration[q])
-        filteration = JSON.parse(JSON.stringify(filteration).replace(/gte|gt|lte|lt/ig, (s) => `$${s}`))
-        console.log(req.query.keyword)
 
-        // pagination
-        const { limit = 15, currentPage = 1 } = req.query
-        const skip = limit * (currentPage - 1)
-
+        const documentCount = await productModel.countDocuments();
         // building the query
-        let mongooseQuery = productModel.find(filteration)
-            .skip(skip).limit(limit)
-            .populate([{ path: "category", select: "name -_id" }, { path: "brand", select: "name -_id" }, { path: "subcategory", select: "name -_id" }])
+        const apiFeatures = new ApiFeatures(productModel.find(), req.query)
+            .paginate()
+            .filter()
+            .search()
+            .limitFieldes()
+            .sort()
+        // .populate([{ path: "category", select: "name -_id" }, { path: "brand", select: "name -_id" }, { path: "subcategory", select: "name -_id" }])
 
-        // sorting
-        if (req.query.sort) {
-            mongooseQuery = mongooseQuery.sort(req.query.sort.split(",").join(" "))
-        } else {
-            mongooseQuery = mongooseQuery.sort("createdAt")
-        }
-
-        // field limit
-        if (req.query.fields) {
-            mongooseQuery = mongooseQuery.select(req.query.fields.split(",").join(" "))
-        } else {
-            mongooseQuery = mongooseQuery.select("-__v")
-        }
-
-        //searching
-        if (req.query.keyword) {
-            const query = {}
-            query.$or = [
-                { title: { $regex: req.query.keyword, $options: "i" } },
-                { description: { $regex: req.query.keyword, $options: "i" } }
-            ]
-
-            mongooseQuery = mongooseQuery.find(query)
-        }
         // execute the query
+        const { mongooseQuery, pagination } = apiFeatures
+
         const products = await mongooseQuery
         res.status(200).json({
-            currentPage,
-            limit,
+            result: products.length,
+            pagination,
             data: products
         })
     }
